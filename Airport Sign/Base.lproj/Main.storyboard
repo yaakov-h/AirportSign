@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sign View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SignViewController" customModule="Airport_Sign" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,152 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2l4-ZT-Uw7" userLabel="Tap and hold to open the edit panel and edit this text">
+                                <rect key="frame" x="16" y="28" width="568" height="564"/>
+                                <gestureRecognizers/>
+                                <string key="text">Tap and hold
+to open the edit panel
+and edit this text</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="108"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="pop-AB-vWq" appends="YES" id="Qfg-8f-UuC"/>
+                                </connections>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2l4-ZT-Uw7" secondAttribute="bottom" constant="8" id="5xA-qG-TSP"/>
+                            <constraint firstItem="2l4-ZT-Uw7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9RI-Qj-AVw"/>
+                            <constraint firstItem="2l4-ZT-Uw7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ALf-uG-1Wq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2l4-ZT-Uw7" secondAttribute="bottom" constant="8" id="Qli-7S-lgn"/>
+                            <constraint firstItem="2l4-ZT-Uw7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="8" id="TlU-bP-Wa2"/>
+                            <constraint firstItem="2l4-ZT-Uw7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="WQD-CH-ZT7"/>
+                            <constraint firstItem="2l4-ZT-Uw7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="k54-3f-NW2"/>
+                            <constraint firstItem="2l4-ZT-Uw7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="v1e-62-q2r"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="TlU-bP-Wa2"/>
+                                <exclude reference="k54-3f-NW2"/>
+                                <exclude reference="v1e-62-q2r"/>
+                                <exclude reference="Qli-7S-lgn"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="TlU-bP-Wa2"/>
+                                <include reference="k54-3f-NW2"/>
+                                <include reference="v1e-62-q2r"/>
+                                <include reference="Qli-7S-lgn"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="pop-AB-vWq" appends="YES" id="Dkd-5N-TfE"/>
+                            <outletCollection property="gestureRecognizers" destination="WYm-xw-yKH" appends="YES" id="QZP-MQ-9ly"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="2l4-ZT-Uw7" id="J0d-eg-GW5"/>
+                        <outlet property="view" destination="8bC-Xf-vdC" id="rsi-Um-WYj"/>
+                        <segue destination="pjR-7q-8JA" kind="presentation" identifier="ShowEditController" modalPresentationStyle="formSheet" modalTransitionStyle="coverVertical" id="cjI-Md-Gr8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="pop-AB-vWq">
+                    <connections>
+                        <action selector="handleLongPress:" destination="BYZ-38-t0r" id="gCN-wI-SYT"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <tapGestureRecognizer id="WYm-xw-yKH">
+                    <connections>
+                        <action selector="toggleStatusBarVisible:" destination="BYZ-38-t0r" id="eua-vR-sSb"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="375" y="305"/>
+        </scene>
+        <!--Edit Text-->
+        <scene sceneID="6uc-vU-R70">
+            <objects>
+                <viewController id="3Ho-Yh-hf0" customClass="SignEditViewController" customModule="Airport_Sign" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KBD-ah-HZ6"/>
+                        <viewControllerLayoutGuide type="bottom" id="SO6-Di-e8j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2rv-Cc-lgc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pTm-Gh-YcU">
+                                <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter some text here" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wrD-63-al8">
+                                        <rect key="frame" x="8" y="8" width="584" height="540"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="wrD-63-al8" secondAttribute="trailing" constant="8" id="aIg-i6-7b9"/>
+                                    <constraint firstItem="wrD-63-al8" firstAttribute="leading" secondItem="pTm-Gh-YcU" secondAttribute="leading" constant="8" id="cyD-oC-N3s"/>
+                                    <constraint firstAttribute="bottom" secondItem="wrD-63-al8" secondAttribute="bottom" constant="8" id="ewV-AA-qb2"/>
+                                    <constraint firstItem="wrD-63-al8" firstAttribute="top" secondItem="pTm-Gh-YcU" secondAttribute="top" constant="8" id="ihD-iT-DNF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="pTm-Gh-YcU" secondAttribute="trailing" id="9fy-hT-8GN"/>
+                            <constraint firstItem="SO6-Di-e8j" firstAttribute="top" secondItem="pTm-Gh-YcU" secondAttribute="bottom" id="O7T-Vs-oSz"/>
+                            <constraint firstItem="pTm-Gh-YcU" firstAttribute="top" secondItem="KBD-ah-HZ6" secondAttribute="bottom" id="XrM-af-TU0"/>
+                            <constraint firstItem="pTm-Gh-YcU" firstAttribute="leading" secondItem="2rv-Cc-lgc" secondAttribute="leading" id="mtO-NI-3j0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit Text" id="4q7-vH-cpR">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="clS-37-vBP">
+                            <connections>
+                                <action selector="cancel:" destination="3Ho-Yh-hf0" id="uHG-Gq-tRy"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="sLt-XQ-PlZ">
+                            <connections>
+                                <action selector="done:" destination="3Ho-Yh-hf0" id="jKX-cI-29g"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="heightAdjustmentBottomConstraint" destination="O7T-Vs-oSz" id="QG8-C0-lwp"/>
+                        <outlet property="heightAdjustmentView" destination="pTm-Gh-YcU" id="uCe-Rq-Hnj"/>
+                        <outlet property="textView" destination="wrD-63-al8" id="Yan-St-BDi"/>
+                        <outlet property="view" destination="2rv-Cc-lgc" id="o85-ku-EZg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XNP-iv-nEr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1821" y="305"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oSQ-ik-qOv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pjR-7q-8JA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nky-vX-YnO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3Ho-Yh-hf0" kind="relationship" relationship="rootViewController" id="Ekc-Z6-KfB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8xx-Wb-cGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="305"/>
         </scene>
     </scenes>
 </document>
