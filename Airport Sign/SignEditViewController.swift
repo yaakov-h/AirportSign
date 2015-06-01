@@ -31,6 +31,18 @@ class SignEditViewController: UIViewController {
 		NSNotificationCenter.defaultCenter().removeObserver(self)
 	}
 	
+	override func viewWillAppear(animated: Bool) {
+		if let textView = textView {
+			textView.becomeFirstResponder()
+		}
+	}
+	
+	override func viewWillDisappear(animated: Bool) {
+		if let textView = textView {
+			textView.resignFirstResponder()
+		}
+	}
+	
 	@IBAction func done(sender: AnyObject) {
 		if
 			let delegate = delegate,
