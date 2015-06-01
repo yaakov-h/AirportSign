@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7C78D4F1B1C65D20072B071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C78D4E1B1C65D20072B071 /* AppDelegate.swift */; };
+		D7C78D511B1C65D20072B071 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C78D501B1C65D20072B071 /* ViewController.swift */; };
+		D7C78D541B1C65D20072B071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C78D521B1C65D20072B071 /* Main.storyboard */; };
+		D7C78D561B1C65D20072B071 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C78D551B1C65D20072B071 /* Images.xcassets */; };
+		D7C78D591B1C65D20072B071 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C78D571B1C65D20072B071 /* LaunchScreen.xib */; };
+		D7C78D651B1C65D20072B071 /* Airport_SignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C78D641B1C65D20072B071 /* Airport_SignTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7C78D5F1B1C65D20072B071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7C78D411B1C65D20072B071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C78D481B1C65D20072B071;
+			remoteInfo = "Airport Sign";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7C78D491B1C65D20072B071 /* Airport Sign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airport Sign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C78D4D1B1C65D20072B071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C78D4E1B1C65D20072B071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7C78D501B1C65D20072B071 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7C78D531B1C65D20072B071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7C78D551B1C65D20072B071 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7C78D581B1C65D20072B071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D7C78D5E1B1C65D20072B071 /* Airport SignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airport SignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C78D631B1C65D20072B071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C78D641B1C65D20072B071 /* Airport_SignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport_SignTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7C78D461B1C65D20072B071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C78D5B1B1C65D20072B071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7C78D401B1C65D20072B071 = {
+			isa = PBXGroup;
+			children = (
+				D7C78D4B1B1C65D20072B071 /* Airport Sign */,
+				D7C78D611B1C65D20072B071 /* Airport SignTests */,
+				D7C78D4A1B1C65D20072B071 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7C78D4A1B1C65D20072B071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7C78D491B1C65D20072B071 /* Airport Sign.app */,
+				D7C78D5E1B1C65D20072B071 /* Airport SignTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7C78D4B1B1C65D20072B071 /* Airport Sign */ = {
+			isa = PBXGroup;
+			children = (
+				D7C78D4E1B1C65D20072B071 /* AppDelegate.swift */,
+				D7C78D501B1C65D20072B071 /* ViewController.swift */,
+				D7C78D521B1C65D20072B071 /* Main.storyboard */,
+				D7C78D551B1C65D20072B071 /* Images.xcassets */,
+				D7C78D571B1C65D20072B071 /* LaunchScreen.xib */,
+				D7C78D4C1B1C65D20072B071 /* Supporting Files */,
+			);
+			path = "Airport Sign";
+			sourceTree = "<group>";
+		};
+		D7C78D4C1B1C65D20072B071 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7C78D4D1B1C65D20072B071 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7C78D611B1C65D20072B071 /* Airport SignTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7C78D641B1C65D20072B071 /* Airport_SignTests.swift */,
+				D7C78D621B1C65D20072B071 /* Supporting Files */,
+			);
+			path = "Airport SignTests";
+			sourceTree = "<group>";
+		};
+		D7C78D621B1C65D20072B071 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7C78D631B1C65D20072B071 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7C78D481B1C65D20072B071 /* Airport Sign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C78D681B1C65D20072B071 /* Build configuration list for PBXNativeTarget "Airport Sign" */;
+			buildPhases = (
+				D7C78D451B1C65D20072B071 /* Sources */,
+				D7C78D461B1C65D20072B071 /* Frameworks */,
+				D7C78D471B1C65D20072B071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Airport Sign";
+			productName = "Airport Sign";
+			productReference = D7C78D491B1C65D20072B071 /* Airport Sign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7C78D5D1B1C65D20072B071 /* Airport SignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C78D6B1B1C65D20072B071 /* Build configuration list for PBXNativeTarget "Airport SignTests" */;
+			buildPhases = (
+				D7C78D5A1B1C65D20072B071 /* Sources */,
+				D7C78D5B1B1C65D20072B071 /* Frameworks */,
+				D7C78D5C1B1C65D20072B071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C78D601B1C65D20072B071 /* PBXTargetDependency */,
+			);
+			name = "Airport SignTests";
+			productName = "Airport SignTests";
+			productReference = D7C78D5E1B1C65D20072B071 /* Airport SignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7C78D411B1C65D20072B071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Yaakov;
+				TargetAttributes = {
+					D7C78D481B1C65D20072B071 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D7C78D5D1B1C65D20072B071 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D7C78D481B1C65D20072B071;
+					};
+				};
+			};
+			buildConfigurationList = D7C78D441B1C65D20072B071 /* Build configuration list for PBXProject "Airport Sign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7C78D401B1C65D20072B071;
+			productRefGroup = D7C78D4A1B1C65D20072B071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7C78D481B1C65D20072B071 /* Airport Sign */,
+				D7C78D5D1B1C65D20072B071 /* Airport SignTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7C78D471B1C65D20072B071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C78D541B1C65D20072B071 /* Main.storyboard in Resources */,
+				D7C78D591B1C65D20072B071 /* LaunchScreen.xib in Resources */,
+				D7C78D561B1C65D20072B071 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C78D5C1B1C65D20072B071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7C78D451B1C65D20072B071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C78D511B1C65D20072B071 /* ViewController.swift in Sources */,
+				D7C78D4F1B1C65D20072B071 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C78D5A1B1C65D20072B071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C78D651B1C65D20072B071 /* Airport_SignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7C78D601B1C65D20072B071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7C78D481B1C65D20072B071 /* Airport Sign */;
+			targetProxy = D7C78D5F1B1C65D20072B071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7C78D521B1C65D20072B071 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C78D531B1C65D20072B071 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7C78D571B1C65D20072B071 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C78D581B1C65D20072B071 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7C78D661B1C65D20072B071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D7C78D671B1C65D20072B071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7C78D691B1C65D20072B071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Airport Sign/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7C78D6A1B1C65D20072B071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Airport Sign/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7C78D6C1B1C65D20072B071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Airport SignTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airport Sign.app/Airport Sign";
+			};
+			name = Debug;
+		};
+		D7C78D6D1B1C65D20072B071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Airport SignTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airport Sign.app/Airport Sign";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7C78D441B1C65D20072B071 /* Build configuration list for PBXProject "Airport Sign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C78D661B1C65D20072B071 /* Debug */,
+				D7C78D671B1C65D20072B071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C78D681B1C65D20072B071 /* Build configuration list for PBXNativeTarget "Airport Sign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C78D691B1C65D20072B071 /* Debug */,
+				D7C78D6A1B1C65D20072B071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7C78D6B1B1C65D20072B071 /* Build configuration list for PBXNativeTarget "Airport SignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C78D6C1B1C65D20072B071 /* Debug */,
+				D7C78D6D1B1C65D20072B071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7C78D411B1C65D20072B071 /* Project object */;
+}
