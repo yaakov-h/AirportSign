@@ -23,7 +23,7 @@
                                 <string key="text">Tap and hold
 to open the edit panel
 and edit this text</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="108"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="156"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <connections>
