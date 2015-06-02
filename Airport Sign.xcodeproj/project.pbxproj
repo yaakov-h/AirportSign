@@ -12,19 +12,8 @@
 		D7C78D541B1C65D20072B071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C78D521B1C65D20072B071 /* Main.storyboard */; };
 		D7C78D561B1C65D20072B071 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C78D551B1C65D20072B071 /* Images.xcassets */; };
 		D7C78D591B1C65D20072B071 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C78D571B1C65D20072B071 /* LaunchScreen.xib */; };
-		D7C78D651B1C65D20072B071 /* Airport_SignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C78D641B1C65D20072B071 /* Airport_SignTests.swift */; };
 		D7C78D6F1B1C66E40072B071 /* SignEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C78D6E1B1C66E40072B071 /* SignEditViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D7C78D5F1B1C65D20072B071 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D7C78D411B1C65D20072B071 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D7C78D481B1C65D20072B071;
-			remoteInfo = "Airport Sign";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D7C78D491B1C65D20072B071 /* Airport Sign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airport Sign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,21 +23,11 @@
 		D7C78D531B1C65D20072B071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7C78D551B1C65D20072B071 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D7C78D581B1C65D20072B071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D7C78D5E1B1C65D20072B071 /* Airport SignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airport SignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7C78D631B1C65D20072B071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7C78D641B1C65D20072B071 /* Airport_SignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport_SignTests.swift; sourceTree = "<group>"; };
 		D7C78D6E1B1C66E40072B071 /* SignEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D7C78D461B1C65D20072B071 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7C78D5B1B1C65D20072B071 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				D7C78D4B1B1C65D20072B071 /* Airport Sign */,
-				D7C78D611B1C65D20072B071 /* Airport SignTests */,
 				D7C78D4A1B1C65D20072B071 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				D7C78D491B1C65D20072B071 /* Airport Sign.app */,
-				D7C78D5E1B1C65D20072B071 /* Airport SignTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,23 +75,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D7C78D611B1C65D20072B071 /* Airport SignTests */ = {
-			isa = PBXGroup;
-			children = (
-				D7C78D641B1C65D20072B071 /* Airport_SignTests.swift */,
-				D7C78D621B1C65D20072B071 /* Supporting Files */,
-			);
-			path = "Airport SignTests";
-			sourceTree = "<group>";
-		};
-		D7C78D621B1C65D20072B071 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D7C78D631B1C65D20072B071 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,24 +95,6 @@
 			productReference = D7C78D491B1C65D20072B071 /* Airport Sign.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D7C78D5D1B1C65D20072B071 /* Airport SignTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7C78D6B1B1C65D20072B071 /* Build configuration list for PBXNativeTarget "Airport SignTests" */;
-			buildPhases = (
-				D7C78D5A1B1C65D20072B071 /* Sources */,
-				D7C78D5B1B1C65D20072B071 /* Frameworks */,
-				D7C78D5C1B1C65D20072B071 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D7C78D601B1C65D20072B071 /* PBXTargetDependency */,
-			);
-			name = "Airport SignTests";
-			productName = "Airport SignTests";
-			productReference = D7C78D5E1B1C65D20072B071 /* Airport SignTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,10 +107,6 @@
 					D7C78D481B1C65D20072B071 = {
 						CreatedOnToolsVersion = 6.3.2;
 						DevelopmentTeam = 28R7NQL5FW;
-					};
-					D7C78D5D1B1C65D20072B071 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = D7C78D481B1C65D20072B071;
 					};
 				};
 			};
@@ -186,7 +124,6 @@
 			projectRoot = "";
 			targets = (
 				D7C78D481B1C65D20072B071 /* Airport Sign */,
-				D7C78D5D1B1C65D20072B071 /* Airport SignTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,13 +136,6 @@
 				D7C78D541B1C65D20072B071 /* Main.storyboard in Resources */,
 				D7C78D591B1C65D20072B071 /* LaunchScreen.xib in Resources */,
 				D7C78D561B1C65D20072B071 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7C78D5C1B1C65D20072B071 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,23 +152,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7C78D5A1B1C65D20072B071 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7C78D651B1C65D20072B071 /* Airport_SignTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D7C78D601B1C65D20072B071 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D7C78D481B1C65D20072B071 /* Airport Sign */;
-			targetProxy = D7C78D5F1B1C65D20072B071 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D7C78D521B1C65D20072B071 /* Main.storyboard */ = {
@@ -369,40 +283,6 @@
 			};
 			name = Release;
 		};
-		D7C78D6C1B1C65D20072B071 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Airport SignTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airport Sign.app/Airport Sign";
-			};
-			name = Debug;
-		};
-		D7C78D6D1B1C65D20072B071 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Airport SignTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airport Sign.app/Airport Sign";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -422,14 +302,7 @@
 				D7C78D6A1B1C65D20072B071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D7C78D6B1B1C65D20072B071 /* Build configuration list for PBXNativeTarget "Airport SignTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D7C78D6C1B1C65D20072B071 /* Debug */,
-				D7C78D6D1B1C65D20072B071 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
